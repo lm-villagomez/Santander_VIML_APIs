@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Santander_Code_VMLM.props" />
+</Project>

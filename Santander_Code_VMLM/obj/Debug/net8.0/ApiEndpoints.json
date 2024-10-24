@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "Santander_Code_VMLM.Controllers.HackerNewsApiController",
+    "Method": "GetBestHistories",
+    "RelativePath": "HackerNewsApi/GetBestHistories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "count",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Santander_Code_VMLM.Models.BestHistories",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
